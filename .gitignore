@@ -1,0 +1,4 @@
+vendor/
+**/.*.local
+public/mail.htm
+public/cache.tmp

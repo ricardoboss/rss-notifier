@@ -1,0 +1,26 @@
+{
+    "name": "ricardoboss/rss-watcher",
+    "description": "A new Elephox application.",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "~8.1 || ~8.2",
+        "elephox/framework": "dev-develop",
+        "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../framework"
+        }
+    ]
+}
